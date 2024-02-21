@@ -53,12 +53,42 @@
 
       <!-- Second part -->
       <div>
-        
+        <div class="text-center text-3xl font-bold p-6">
+          <h1>Best offers for you</h1>
+       </div>
+ 
+       <section class="flex gap-8 px-10 mt-6 text-black">
+          <div class="bg-yellow-400 flex w-[50%] h-48">
+             <div class="pt-16 pl-10">
+                <h2 class="font-extrabold text-3xl">15% of</h2>
+                <p class="font-black">On your next pharcess</p>
+                <p>Use by january 2024</p>
+             </div>
+             <div class="pt-16 pl-28">
+                <h2 class="font-extrabold text-xl">NEW 15</h2>
+                <p>coupon code</p>
+             </div>
+          </div>
+ 
+          <div class="bg-green-400 flex w-[50%] h-48">
+             <div class="pt-16 pl-10">
+                <h1>20% OFF</h1>
+                <p>On your next pharcess</p>
+                <p>Use by january 2024</p>
+             </div>
+             <div class="pt-16 pl-40">
+                <h1>Couple 20</h1>
+                <p>Coupon Code</p>
+             </div>
+       </section>
+       <div class="text-center p-14">
+        <button class="btn btn-outline btn-secondary">See All Offers</button>
+     </div>
       </div>
 
 
       <!-- third part -->
-      <section class="bg-gray-100">
+      <section class="bg-gray-100 mt-10">
         
           
             <div class="text-center">
@@ -123,7 +153,7 @@
 
       <!-- fourth section -->
       <section>
-        <div>
+        <!-- <div>
           <div>
             <h1>Select Your Seat</h1>
             <div class="flex justify-between border-b-2 border-t-2 border-dotted border-b-slate-400 p-6">
@@ -131,7 +161,90 @@
               <p class="font-bold">Dhaka - Sylhet</p>
             </div>
           </div>
-        </div>
+        </div> -->
+        <div class="md:p-6 bg-white rounded-3xl flex flex-col md:flex-row justify-between">
+            <!-- tickets -->
+            <div class="flex-1 lg:w-4/6 space-y-6">
+              <div class="p-6 border-dashed border-[#03071233] border-b">
+                <h3 class="text-[#030712] font-semibold text-2xl">Select Your Seat</h3>
+              </div>
+              <!-- available and selected icon -->
+              <div class="p-4 flex justify-between border-b border-dashed border-[#03071233]">
+                <h2 class="flex gap-[5px]"><img src="./images/seat-gray.png" alt="">Available</h2>
+                <h2 class="flex gap-[7px]"><img src="./images/seat-green-filled.png" alt=""><span>0</span> Selected</h2>
+              </div>
+            <div class="flex justify-end  items-end">
+              <div class="flex justify-center rounded-[15px] w-[110px] h-[56px] bg-[#0307121A] cursor-pointer">
+                <img class="" src="images/tabler-icon-steering-wheel.svg" alt="">
+              </div>
+            </div>
+            
+              <!--  -->
+            
+              <div class="grid grid-cols-5 gap-6 font-[Inter]">
+                <h1 class="font-bold py-2 px-12">A</h1>
+                <button class="col-span-1 bg-gray-200 text-gray-700 font-bold py-4 px-12 rounded-[12px] "><h1>A1</h1></button>
+                <button class="col-span-1 bg-gray-200 text-gray-700 font-bold py-2 px-12 rounded-[12px] "><h1>A2</h1></button>
+                <button class="col-span-1 bg-gray-200 text-gray-700 font-bold py-2 px-12 rounded-[12px] "><h1>A3</h1></button>
+                <button class="col-span-1 bg-gray-200 text-gray-700 font-bold py-2 px-12 rounded-[12px] "><h1>A4</h1></button>
+                <h1 class="font-bold py-2 px-12">B</h1>
+                <button class="col-span-1 bg-gray-200 text-gray-700 font-bold py-4 px-12 rounded-[12px]"><h1>B1</h1></button>
+                <button class="col-span-1 bg-gray-200 text-gray-700 font-bold py-2 px-12 rounded-[12px]"><h1>B2</h1></button>
+                <button class="col-span-1 bg-gray-200 text-gray-700 font-bold py-2 px-12 rounded-[12px]"><h1>B3</h1></button>
+                <button class="col-span-1 bg-gray-200 text-gray-700 font-bold py-2 px-12 rounded-[12px]"><h1>B4</h1></button>
+            </div>
+              <!-- -->
+
+              
+
+
+
+
+            </div>
+  
+            <div class="divider lg:divider-horizontal"></div>
+  
+            <!-- tickets prices cupon and user detail -->
+            <div class="lg:w-1/3 space-y-6" >
+              <div class="p-6 border-dashed border-[#03071233] border-b">
+                <h3 class="text-[#030712] font-semibold text-2xl">Select Your Seat</h3>
+              </div>
+  
+              <!-- total price and bought info -->
+              <div class="inter space-y-5">
+  
+                <!-- bought info -->
+                <div class="bg-[#F7F8F8] rounded-xl p-8 space-y-6">
+                  <table class="w-full">
+                    <colgroup>
+                      <!-- <col style="width: 20%">
+                      <col style="width: 20%">
+                      <col style="width: 20%"> -->
+                      </colgroup>
+                    <thead>
+                      <tr class="border-b border-dashed border-[#03071233]">
+                        <th id="seat-mark" class="p-4 text-[#030712] text-base font-medium">Seat <span class="bg-[#1DD100]  text-white text-xs font-bold px-2 rounded-lg">2</span></th>
+                        <th class="p-4 text-[#030712] text-base font-medium">class</th>
+                        <th class="p-4 text-[#030712] text-base font-medium">price</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr id="seat-add">
+                        <th class="p-4 text-[#03071299] text-base font-normal">C2</th>
+                        <th class="p-4 text-[#03071299] text-base font-normal">Economy</th>
+                        <th class="p-4 text-[#03071299] text-base font-normal">550</th>
+                      </tr>
+                    
+                      
+                    </tbody>
+                  </table>
+                  <hr class="border border-[#03071233]">
+                  <!-- total price -->
+                  <div class="flex justify-between *:text-[#030712] *:font-medium *:text-base">
+                    <h3>Total Price</h3>
+                    <h3>BDT 1100</h3>
+                  </div>
+                 
       </section>
    
 
